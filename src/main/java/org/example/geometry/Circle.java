@@ -20,4 +20,8 @@ public class Circle implements Shape {
     public double getRadius() {
         return radius;
     }
+
+    public double getDiameter() {
+        return 2 * radius;
+    }
 }
