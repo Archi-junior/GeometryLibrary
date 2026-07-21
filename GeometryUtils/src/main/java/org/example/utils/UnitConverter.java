@@ -18,4 +18,12 @@ public class UnitConverter {
         return cm / 2.54;
     }
 
+    public static double feetToMetr(double feet) {
+        return feet * 0.3048;
+    }
+
+    public static double metrToFeet(double metr) {
+        return metr / 0.3048;
+    }
+
 }
