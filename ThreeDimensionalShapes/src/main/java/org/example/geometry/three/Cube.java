@@ -20,4 +20,8 @@ public class Cube implements ThreeDShape {
     public double getSide() {
         return side;
     }
+
+    public double getExtraSide() {
+        return side * side;
+    }
 }
